@@ -16,7 +16,6 @@
 
 <p align="center">
   <a href="#pushpin-info">Info</a>   |   
-  <a href="src/br/com/entra21/exemplos">Exemplos</a>   |   
   <a href="src/br/com/entra21/exercicios">Exercícios</a>
 </p>
 
@@ -37,7 +36,7 @@ Curso segue em andamento, atualizarei o repositório com novos conteúdos de nov
 
 ## 📝 Exercícios
 
-- [Estrutura Condicional](.Lógica com Javascript/Condicionais (if-else, switch-case)/Exercicios if-else)
+- [Estrutura Condicional](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Condicionais%20(if-else%2C%20switch-case)/Exercicios%20if-else)
 - [Estrutura de Repetição - While](./src/br/com/entra21/exercicios/lista03)
 - [Vetor](./src/br/com/entra21/exercicios/lista04)
 - [Estrutura de Repetição - For](./src/br/com/entra21/exercicios/lista05)
