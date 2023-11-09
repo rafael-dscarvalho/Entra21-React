@@ -1,0 +1,15 @@
+let pessoa = {
+    "nome": "Ruan",
+    "idade": 25,
+    "gostoMusical": ["rock", "funk"],
+    "filho": {
+        "nome":"Nao existe",
+        "idade": 0
+    },
+    "dizerOi": function(){
+        alert("Oi")
+    }
+}
+console.log(pessoa.gostoMusical[0])
+console.log(pessoa.filho.nome)
+pessoa.dizerOi()

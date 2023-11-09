@@ -1,0 +1,10 @@
+let pessoa = {
+    "nome": "Ruan",
+    "idade": 25
+}
+
+console.log(pessoa.nome) // "Ruan"
+console.log(pessoa.idade) // 25
+pessoa.idade = 30 // Modifica propriedade existente
+pessoa.linguagemPreferida = "JavaScript" // Cria nova propriedade 
+console.log(pessoa)

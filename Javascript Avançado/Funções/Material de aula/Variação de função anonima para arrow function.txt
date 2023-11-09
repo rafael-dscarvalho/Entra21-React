@@ -1,0 +1,14 @@
+// Função anonima
+function(itemDoArray){
+    return  itemDoArray % 2 == 0
+})
+
+// Mesma função, mas trocando function por =>
+(itemDoArray) => { 
+    return itemDoArray % 2 == 0
+}
+
+// Mesma função retirando {}, return e ()
+itemDoArray => itemDoArray % 2 == 0
+
+

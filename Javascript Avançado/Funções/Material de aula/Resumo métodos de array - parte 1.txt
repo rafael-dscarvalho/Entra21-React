@@ -1,0 +1,28 @@
+let lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// every: verifica se todos os itens do Array atendem uma condição
+let verificacaoEvery = lista.every(item => item % 2 == 0)
+
+// some: verifica se algum dos itens do Array atende uma condição
+let verificacaoSome = lista.some(item => item % 2 == 0)
+
+// filter: filtra os elementos de um array, criando uma nova lista com os itens que atendem uma condição
+let listaFiltrada = lista.filter(item => item % 2 == 0)
+
+// find: busca o primeiro item que atende uma condição dentro de um array
+let primeiroPar = lista.find(item => item % 2 == 0)
+
+// findLast: busca o último item que atende uma condição dentro de um array
+let ultimoPar = lista.findLast(item => item % 2 == 0)
+
+// findIndex: busca o índice do primeiro item que atende uma condição dentro de um array
+let indicePrimeiroPar = lista.findIndex(item => item % 2 == 0)
+
+// findLastIndex: busca o índice do ultimo item que atende uma condição dentro de um array
+let indiceUltimoPar = lista.findLastIndex(item => item % 2 == 0)
+
+// map: cria um novo array permitindo a manipulação dos elementos 
+let novaLista = lista.map(item => item * 2)
+
+// forEach: executa uma ação para elemento do array (não cria novo array)
+lista.forEach((item, indice) => console.log(`Indice ${indice} - item ${item}`))

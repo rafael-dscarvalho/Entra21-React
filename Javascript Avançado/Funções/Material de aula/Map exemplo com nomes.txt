@@ -1,0 +1,7 @@
+let palavras = ["Ruan", "Joao", "Jose"]
+
+let nomes = palavras.map(palavraIndividual => {
+    return `O nome é ${palavraIndividual}`
+})
+
+console.log(nomes)

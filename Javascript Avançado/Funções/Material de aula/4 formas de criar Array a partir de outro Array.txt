@@ -1,0 +1,23 @@
+let numeros = [2, 20, 50]
+let numeroPelaMetade = []
+
+// Criar um novo array com a metade de cada elemento
+// Forma 1: for convencional
+for(let i = 0; i < numeros.length; i++){
+    numeroPelaMetade[i] = numeros[i] / 2
+}
+console.log(numeroPelaMetade)
+
+// Forma 2: map
+let resultadoMap = numeros.map((numero) => numero / 2)
+console.log(resultadoMap)
+
+// Forma 3: forEach
+let resultado = numeros.forEach((numero, indice) => numeroPelaMetade[indice] = numero / 2)
+console.log(numeroPelaMetade)
+
+// Forma 4: for...of
+for(numeroAtual of numeros){
+    numeroPelaMetade.push(numeroAtual/2)
+}
+console.log(numeroPelaMetade)
