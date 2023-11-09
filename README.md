@@ -10,7 +10,7 @@
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/rafael-dscarvalho/Entra21-React?OrangeRed">
 
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafael-dscarvalho/Entra21-Reactcolor=#FF4500&style=flat-square">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafael-dscarvalho/Entra21-React?color=#FF4500&style=flat-square">
 
 </p>
 
