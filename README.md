@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://blusoft.org.br/home/entra-21/">
-  <img src="resources/images/Entra21-3-300x283.png" alt="Programa Entra21">
+  <img src="https://raw.githubusercontent.com/gabrielbudke/entra21/master/resources/images/Entra21-3-300x283.png" alt="Programa Entra21">
   </a>
   <h1>Entra21 | React Florianópolis | Edição 2023 </h1>
 </div>
@@ -8,7 +8,8 @@
 <p align="center">
   <img alt="Made by Gabriel B Sousa" src="https://img.shields.io/badge/made%20by-Gabriel%20B%20Sousa-007d99?style=flat-square">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/rafael-dscarvalho/:repo">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/https%3A%2F%2Fgithub.com%2Frafael-dscarvalho/https%3A%2F%2Fgithub.com%2Frafael-dscarvalho%2FEntra21-React
+">
 
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/gabrielbudke/entra21?color=007d99&style=flat-square">
 
