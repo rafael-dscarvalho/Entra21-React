@@ -1,0 +1,146 @@
+@font-face {
+
+    font-family: "bungee";
+    src: url(Bungee-Regular.otf);
+}
+@font-face{
+
+    font-family: "familiar pro-bold";
+    src: url(Familiar_Pro-Bold.otf);
+}
+@font-face {
+
+    font-family: "nickainley";
+    src: url(Nickainley-Normal.otf);
+}
+
+html{
+
+    height: 100%;
+    margin: 0;
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+    background-image: url("bg-halloween.png");
+    font-family: familiar pro-bold;
+}
+
+#container{
+
+    display: flex;
+    height: 100%;
+
+}
+#containerLeft{
+
+    height: 100%;
+    width: 40%;
+}
+
+#containerRight{
+
+    height: 100%;
+    width: 60%;
+}
+
+#header{
+
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#main{
+
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#footer{
+
+    height: 20%;
+}
+
+.spanHeader{
+
+    font-size: 35px;
+    color: white;
+    padding-top: 40px;
+    margin-right: 50px;
+    
+}
+
+#tittle1{
+
+    font-size: 150px;
+    font-family: bungee;
+    line-height:1;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#tittle2{
+
+    margin: 0;
+    font-size: 150px;
+    font-family: nickainley;
+    margin-left: 50px;
+}
+
+p{
+
+    font-size: 27px;
+    color: white;
+
+}
+
+#btns{
+
+    margin-top: 20px;
+}
+#btn1{
+
+    font-size: 20px;
+    color: gray;
+    height: 50px;
+    width: 250px;
+    margin-right: 15px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#btn2{
+
+    font-size: 22px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 4px solid white;
+    background-color: inherit;
+    border-radius: 10px;
+
+}
+
+#footer{
+
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons{
+
+    height: 60px;
+    width: 60px;
+    padding-top: 40px;
+    margin-right: 50px;
+    margin-top: 50px;
+}

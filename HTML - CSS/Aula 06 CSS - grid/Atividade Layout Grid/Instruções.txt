@@ -1,0 +1,4 @@
+Elaborar
+o desenho de um layout simples (no papel ou digital). Criar o layout utilizando
+grid layout e aplicar um a parte visual no grid criado, adicionando os
+elementos e posicionando. Atividade em equipes de 2 ou 3 integrantes

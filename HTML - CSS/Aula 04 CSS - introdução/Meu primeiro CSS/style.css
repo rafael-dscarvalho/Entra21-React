@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "spiderman";
+    src: url(The\ Amazing\ Spider-Man.ttf);
+}
+
+
+html{
+
+    height: 100%;
+
+}
+
+
+body{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+header{
+
+    height: 20%;
+    background-color: blue;
+
+}
+
+main{
+
+    display:flex;
+    height: 60%;
+    background-color: yellow;
+}
+
+aside{
+
+    height: 100%;
+    width: 30%;
+    background-color: aquamarine;
+    background-image: url(catmeme.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+
+    height: 100%;
+    width: 70%;
+    background-color: chocolate
+}
+
+footer{
+
+    height: 20%;
+    background-color: green;
+
+}
+
+.btns{
+
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    border: solid 1px black;
+    font-weight: bolder;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.btns:hover{
+
+    color: aliceblue;
+    background-color: black;
+}
+
+#btnAside{
+
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    border: solid 1px black;
+    cursor: pointer;
+    opacity: 40%;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#testfont{
+
+    font-size: 60px;
+    font-family: spiderman;
+    margin-left: 350px;
+
+}
+
+#testfont2{
+
+    font-size: 60px;
+    font-family: 'Sedgwick Ave Display', cursive; 
+    margin-left: 500px;
+
+}
+
+#btnTwo{
+
+    margin-top: 10px;
+    padding-bottom: 10px;
+}

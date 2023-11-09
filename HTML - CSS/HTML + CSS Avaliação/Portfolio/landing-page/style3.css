@@ -1,0 +1,124 @@
+html{
+
+    height: 100%;
+    margin: 0;
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+}
+
+#mainContainer{
+
+    display: flex;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#leftContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    background-color: #2C2C2C;
+}
+
+#leftContainerGrid{
+
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 10px;
+
+}
+
+.grid-items{
+
+    background-color: lightblue;
+    text-align: center;
+    border: 2px solid white;
+
+}
+
+.grid-items:hover{
+
+    opacity: 30%;
+    cursor: pointer;
+}
+
+#rightContainer{
+
+    width: 20%;
+    height: 100%;
+    background-color: black;
+}
+
+h1{
+
+    transform: rotate(-90deg);
+    font-size: 120px;
+    letter-spacing: 4px;
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#projetosContainer{
+
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#rightFooter{
+
+    color: white;
+    height: 20%;
+
+}
+
+#rightFooterText{
+
+    margin-left: 40px;
+
+}
+
+h3{
+
+    background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 30px;
+    margin-bottom: 1px;
+    margin: 0;
+}
+
+h5{
+
+    margin-top: 10px;
+    color: #B3B3B3;
+    margin: 0;
+}
+
+img{
+
+    height: 100%;
+    width: 100%;
+}
+
+
+#voltar{
+
+    color: white;
+    font: 30px;
+}

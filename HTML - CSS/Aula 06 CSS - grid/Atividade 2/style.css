@@ -1,0 +1,47 @@
+html{
+
+    height: 100%;
+}
+body{
+
+    height: 100%;
+    margin: 0;
+}
+
+
+.grid-container{
+
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;   
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.grid-items{
+
+    background-color: chocolate;
+
+}
+
+#item1{
+
+    background-color: pink;
+}
+
+#item2{
+
+    background-color: rgb(224, 12, 47);
+}
+
+#item3{
+
+    background-color: blueviolet;
+}
+
+#item4{
+
+    background-color: rgb(247, 247, 65);
+}
+

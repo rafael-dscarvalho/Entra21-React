@@ -1,0 +1,12 @@
+Criar
+os seguintes layouts:
+
+
+
+
+
+
+1)Layout
+3x5 com gaps de coluna 50px e de linha 30px.
+
+

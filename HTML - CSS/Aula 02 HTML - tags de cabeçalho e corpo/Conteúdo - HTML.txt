@@ -1,0 +1,60 @@
+Documentação:
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+https://www.w3schools.com/html/default.asp
+
+Comentário
+<!-- "comentário" -->
+
+Parágrafo e label
+<p> <label>
+
+Títulos e cabeçalhos
+<h1> <h2> <h3> <h4> <h5> <h6>
+
+Linha horizontal
+<hr>
+* Atributos - size, color, width (px ou %), align, noshade
+
+Formatação
+<i> <b> <u> <s>
+
+Imagem
+<img>
+* Atributos - size, border
+
+Imagem de fundo
+<body background="imagem">
+
+<style>
+background-color, color, font-family, font-size, text-align
+
+Listas (Ordenada, Não Ordenada, Lista com Descrição)
+<ol> <ul> <li> <dl> <dt> <dd>
+
+
+Links (a)
+* Atributos: href, target (_blank, _self, etc)
+* Atributos: link, vlink, alink (* Dentro do body)
+
+Área para texto
+<textarea>
+* Atributos: cols, rows, style/resize
+
+Inputs (text, number, radio, checkbox, date, color, range, file)
+* Atributos: type, placeholder, value
+
+
+
+Seleção (select, option, value)
+
+
+
+__________________________________________________________________
+
+Tags Não semânticas
+<div> <span>
+
+Semânticas
+<form> <table> <main> <header> <footer> <article> <section> <nav> <aside> <figure> <detail> <summary>
+
+Eventos (onclick, onload, onchange, onmouseover, onmouseout)

@@ -1,0 +1,15 @@
+Em
+equipe, criar um site com pelo menos duas páginas (transição), com a temática
+solicitada, utilizando apenas as tags básicas e as sorteadas (3) + propriedades.
+
+
+
+
+
+
+Tags
+básicas: <label> <a> <img> <center> <br>
+
+
+Tags
+sorteadas: <s> <ul> <select>

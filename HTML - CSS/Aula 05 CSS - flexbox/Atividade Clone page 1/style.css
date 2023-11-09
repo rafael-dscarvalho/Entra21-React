@@ -1,0 +1,169 @@
+html{
+
+    height: 100%;
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+}
+
+#mainContainer{
+
+    display: flex;
+    height: 100%;
+}
+
+#leftContainer{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+
+}
+
+#leftContainerTop{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    height: 30%;  
+}
+
+#leftContainerMiddle{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 10%;
+}
+
+#leftContainerBottom{
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+}
+
+#rightContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+
+}
+
+#hello{
+
+    font-size: 80px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    color: white;
+    align-items: end;
+
+
+}
+
+h2{
+
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: black;
+    align-items: end;
+
+
+}
+
+p{
+
+    font-size: 30px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: white;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+
+}
+
+.icon{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+}
+
+button{
+
+    height: 65px;
+    width: 240px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    background-color: transparent;
+    border: solid 1px;
+
+}
+
+button:active {
+    transform: scale(0.95);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+#BTNsignUp{
+
+    margin-top: 70px;
+    color: #ffffff;
+    border-color: #ffffff;
+
+}
+
+#BTNsignIn{
+
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #ff4b2b;
+    border-color: #ff4b2b;
+}
+
+input {
+
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 350px;
+    height: 25px;
+  }
+
+  input::placeholder{
+
+    font-size: 17px;
+  }
+
+  #frase1{
+
+    font-size: 25px;
+  }
+
+  #frase2{
+
+    margin-top: 30px;
+    font-size: 30px;
+  }

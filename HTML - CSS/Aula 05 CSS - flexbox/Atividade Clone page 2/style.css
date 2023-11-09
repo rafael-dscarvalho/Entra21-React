@@ -1,0 +1,228 @@
+html{
+
+    height: 100%;
+    margin: 0;
+}
+
+body{
+
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+}
+
+#mainContainer{
+
+    display: flex;
+    height: 100%;
+}
+
+#leftContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+    background-color: white
+
+}
+
+#leftContainerInner{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 65%;
+
+}
+
+#rightContainer{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+    background-image: url("02fundobear.png");
+    
+}
+
+#rightContainerCentered{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 65%;
+    width: 45%;
+    background-color: white;
+}
+
+#rightContainerCenteredInside{
+
+    margin: 0 auto;
+    height: 80%;
+    width: 70%;
+}
+
+h1{
+
+    margin: 0;
+    font-family: 'Arvo', serif;
+    color: #444444;
+    margin-bottom: 26px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 37px;
+    font-weight: 400;
+
+}
+
+h2{
+
+    margin: 0;
+    font-family: 'Arvo', serif;
+    color: #444444;
+    margin-bottom: 26px;
+    line-height: 1.4;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+p{
+
+    margin: 0;
+    color: #777777;
+    font-size: 22px;
+    line-height: 1.6em;
+    margin-bottom: 32px;
+}
+
+button{
+
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 1;
+    background-color: #e27730;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+
+    background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+}
+
+#btnLearn{
+
+    height: 70px;
+    font-size: 19px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+#logIn{
+
+    margin-top: 30px;
+}
+
+form{
+
+    width: 100%;
+}
+
+#frase1{
+
+    font-size: 20px;
+}
+
+#frase1Link{
+
+    color: #e27730;
+}
+
+#frase1Link:hover{
+
+    filter: brightness(80%);
+}
+
+label{
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+    color: #777;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+input{
+
+    display: block;
+    width: 93%;
+    height: 32px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 1;
+    padding: 13px 15px;
+    color: #444;
+}
+
+
+#inputcheckbox{
+
+    width: 15px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+#labelstay{
+
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+a{
+    color: inherit;
+}
+
+#noUnderlineLink{
+
+    text-decoration: none;
+}
+
+
+#frase2{
+
+    text-decoration: underline;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#frase2:hover{
+
+    color: #e27730;
+}
+
+.footer{
+
+    padding-top: 20px;
+    font-size: 15px;
+    color: #888;
+}
+
+

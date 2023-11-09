@@ -1,0 +1,1 @@
+Criar uma pequena aplicação utilizando HTML + JS onde o usuário possa cadastrar 3 atividades, o peso de cada atividade e a nota, mostrando como resultado a média ponderada.

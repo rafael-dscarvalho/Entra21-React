@@ -1,0 +1,23 @@
+html{
+
+    height: 100%;
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+    display:flex;
+    /* justify-content: end;
+    flex-direction:row;
+    align-items: end; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+
+    height: 30px;
+    width: 70px;
+}

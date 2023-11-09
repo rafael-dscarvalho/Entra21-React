@@ -1,0 +1,59 @@
+html{
+
+    height: 100%;
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+}
+
+#container{
+
+    height: 100%;
+    background-color: violet;
+}
+
+#header{
+
+    height: 25%;
+    background-color: rgb(247, 16, 197);
+    display: flex;
+}
+
+#main{
+
+    display: flex;
+    height: 50%;
+    background-color: rgb(231, 38, 80);
+}
+
+#aside{
+
+    height: 100%;
+    width: 30%;
+    background-color: rgb(8, 76, 165);
+}
+
+#section{
+
+    height: 100%;
+    width: 70%;
+    background-color: rgb(50, 110, 201);
+}
+
+#footer{
+
+    height: 25%;
+    background-color: rgb(174, 26, 211);
+}
+
+@media screen and (max-width: 768px){
+
+    #idPiggy{
+
+        display: none;
+    }
+
+}
