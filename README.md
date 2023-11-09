@@ -21,14 +21,14 @@ Este respositório contém todo material de aula e exercícios resolvidos, de ca
 
 Curso segue em andamento, atualizarei o repositório com novos conteúdos de novos módulos a medida que forem terminados.
 
--Lógica de programação com javascript
--Javascript avançado
--HTML & CSS
--Banco de dados relacional
--Node.js
--Git/Github
--Metodologias ágeis para TI
--Finanças e contabilidade
+- Lógica de programação com javascript
+- Javascript avançado
+- HTML & CSS
+- Banco de dados relacional
+- Node.js
+- Git/Github
+- Metodologias ágeis para TI
+- Finanças e contabilidade
 
 ## 📝 Exercícios Javascript
 
