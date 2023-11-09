@@ -22,14 +22,22 @@
 
 ## 📌 Info
 
-Este respositório contém os códigos desenvolvidos durante a minha participação no programa Entra21 da edição 2018.
+Este respositório contém todo material de aula e exercícios resolvidos, de cada modulo do curso Entra21 - React durante a edição de 2023.
 
-Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim os códigos possuem um nível iniciante e com objetivos de aprendizado.
+Curso segue em andamento, atualizarei o repositório com novos conteúdos de novos módulos a medida que forem terminados.
+
+-Lógica de programação com javascript
+-Javascript avançado
+-HTML & CSS
+-Banco de dados relacional
+-Node.js
+-Git/Github
+-Metodologias ágeis para TI
+-Finanças e contabilidade
 
 ## 📝 Exercícios
 
-- [Solicitação de Informação](./src/br/com/entra21/exercicios/lista01)
-- [Estrutura Condicional](./src/br/com/entra21/exercicios/lista02)
+- [Estrutura Condicional](.Lógica com Javascript/Condicionais (if-else, switch-case)/Exercicios if-else)
 - [Estrutura de Repetição - While](./src/br/com/entra21/exercicios/lista03)
 - [Vetor](./src/br/com/entra21/exercicios/lista04)
 - [Estrutura de Repetição - For](./src/br/com/entra21/exercicios/lista05)
@@ -39,6 +47,4 @@ Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim 
 - [Interface Gráfica](./src/br/com/entra21/exercicios/lista09)
 
 ---
-
-Made by Gabriel Sousa
 
