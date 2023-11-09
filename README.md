@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <img alt="Made by Gabriel B Sousa" src="https://img.shields.io/badge/made%20by-Gabriel%20B%20Sousa-007d99?style=flat-square">
+  <img alt="Made by Gabriel B Sousa" src="https://img.shields.io/badge/just%20the%20message-8A2BE2/style=flat-square">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count&color=red/rafael-dscarvalho/Entra21-React">
 
