@@ -14,10 +14,6 @@
 
 </p>
 
-<p align="center">
-  <a href="#pushpin-info">Info</a>   |   
-  <a href="src/br/com/entra21/exercicios">Exercícios</a>
-</p>
 
 ## 📌 Info
 
@@ -42,7 +38,7 @@ Curso segue em andamento, atualizarei o repositório com novos conteúdos de nov
 - [Estrutura de Repetição - For](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Repeti%C3%A7%C3%A3o%20(while%2C%20do%20while%2C%20for)/Exercicios%20for)
 - [Vetores lista 1](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Vetores%20e%20Matrizes/Exerc%C3%ADcios%20Vetores%20lista%201)
 - [Vetores lista 2](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Vetores%20e%20Matrizes/Exerc%C3%ADcios%20Vetores%20lista%202)
-- [Matrizes](.https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Vetores%20e%20Matrizes/Exercicios%20Matrizes)
+- [Matrizes](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Vetores%20e%20Matrizes/Exercicios%20Matrizes)
 - [Funções lista 1](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Fun%C3%A7%C3%B5es/Exercicios%20Fun%C3%A7%C3%B5es%20lista%201)
 - [Funções lista 2](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Fun%C3%A7%C3%B5es/Exercicios%20Fun%C3%A7%C3%B5es%20lista%202)
 - [Funções lista 3](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Fun%C3%A7%C3%B5es/Exercicios%20Fun%C3%A7%C3%B5es%20lista%203)
@@ -52,9 +48,11 @@ Curso segue em andamento, atualizarei o repositório com novos conteúdos de nov
 
 ## 📝 Avaliações
 
-- [Avaliação CRUD](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%203)
-- [Avaliação CAPTCHA](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%203)
-- [Avaliação HTML](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%203)
+- [Avaliação CRUD](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Avalia%C3%A7%C3%A3o%20CRUD)
+- [Avaliação CAPTCHA](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Avalia%C3%A7%C3%A3o%20CAPTCHA)
+- [Avaliação HTML](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/HTML%20-%20CSS/HTML%20Avalia%C3%A7%C3%A3o)
+- [Avaliação HTML+CSS](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/HTML%20-%20CSS/HTML%20%2B%20CSS%20Avalia%C3%A7%C3%A3o/Portfolio)
+- [Avaliação BANCO DE DADOS](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Banco%20de%20Dados/prova_bd_rafaelcarvalho)
 
 
 ---
