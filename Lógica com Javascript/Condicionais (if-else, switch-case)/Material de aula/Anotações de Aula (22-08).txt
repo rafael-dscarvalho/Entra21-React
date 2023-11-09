@@ -1,0 +1,103 @@
+
+>>>>>>>>>> Estrutura (rascunho) de Código <<<<<<<<<<
+
+Crie um programa que peça ao usuário para digitar três notas individualmente (uma por vez), faça a média e caso a média seja igual ou maior que 7, mostre uma mensagem "Aprovado!" e a média. Caso seja menor que 7, mostre uma mensagem "Reprovado!" e a média.
+
+
+criar variáveis notaUm, notaDois, notaTres
+criar variáveis somaNotas, mediaNotas
+
+	perguntar e gravar nota 1
+        perguntar e gravar nota 2
+        perguntar e gravar nota 3
+
+	fazer o cálculo da soma das notas
+	fazer cálculo da média
+
+	verificar a média com condicionais
+	mostrar a média e mensagens para cada caso
+
+
+>>>>>>>>>> Intervalos Numéricos <<<<<<<<<<
+
+- Intervalo numérico 
+   
+   -> Utilizar proposições e o conectivo E
+
+
+   Limite inferior >                < Limite superior
+     (inclusivo)		       (exclusivo)
+
+
+     media >= 5 && media < 7
+
+
+   -> Evitar comparações do tipo abaixo
+
+     numero > 0.000000001
+     nota <= 6.99999999
+
+
+>>>>>>>>>> Casas em Reais com Método toFixed <<<<<<<<<<
+
+- Método define as casas após o ponto (vírgula) em números reais
+- Transforma o tipo de numérico para string.
+
+     .toFixed(número de casas)
+	
+     Exemplos
+
+	mediaNotas.toFixed(2)
+     	imcPaciente.toFixed(3)
+
+
+>>>>>>>>>> Cases e Métodos Upper / Lower <<<<<<<<<<
+
+- JavaScript é uma linguagem "Case Sensitive"
+- Diferencia letras minúsculas de maiúsculas
+
+   SIM != sim != Sim != SiM
+
+
+	.toUpperCase()
+	Transforma todos caracteres em maiúsculo
+
+        .toLowerCase()
+	Transforma todos caracteres em minúsculo
+
+
+>>>>>>>>>> Aumentar ou Diminuir valor de variável <<<<<<<<<<
+
+ACUMULAR OU DIMINUIR VALORES
+
+
+ variável = variável + valor
+ variável += valor
+
+ variável++  (Incrementa 1)
+
+
+ variável = variável - valor
+ variável -= valor
+
+ variável-- (Decrementa 1)
+
+
+
+>>>>>>>>>> Operador Estrito <<<<<<<<<<
+
+	== Igual                 (compara valor apenas)
+	=== Estritamente Igual   (compara valor e tipo)
+
+
+
+
+
+
+
+
+
+
+
+
+

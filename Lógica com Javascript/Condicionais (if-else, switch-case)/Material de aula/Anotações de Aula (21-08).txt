@@ -1,0 +1,39 @@
+
+>>>>>>>>>> Dicas de encadeamento <<<<<<<<<<
+
+1 condição = IF
+2 condições = IF / ELSE
+3 condições = IF / ELSE IF / ELSE
+4 condições (ou mais) = IF / ELSE IF / ELSE IF / ELSE
+
+4 condições (ou mais) = SWITCH / CASE
+
+
+>>>>>>>>>> Comparações possíveis <<<<<<<<<<
+
+variável (relacional) valor      ->    if(nomePessoa == 'Abgail')
+variável (relacional) variável   ->    if(nomeGravado == nomeDigitado) 
+valor (relacional) valor         ->    if(10 > 5)
+
+
+>>>>>>>>>> Concatenação / Soma (Operador +) <<<<<<<<<<
+
+"literal" + "literal" = concatena
+"literal" + numérico = concatena
+numérico + numérico = soma
+
+
+>>>>>>>>>> Uso dos Conectivos Lógicos E / OU <<<<<<<<<<
+
+if(condição1 OU condição2)
+if(condição1 E condição2 E condição3)
+
+Exemplos:
+
+-	if(nota < 7 || frequencia < 75)
+-       if(idade >= 18 && idade < 65 && nome == 'Astrogildo')
+
+
+
+
+

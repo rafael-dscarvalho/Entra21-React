@@ -1,0 +1,73 @@
+Trocar lâmpada
+
+-identificar lâmpada queimada
+-desligar disjuntor
+-pegar lâmpada nova
+-pegar escada
+-posicionar escada abaixo do spot de lâmpada
+-subir na escada
+-desenroscar lâmpada queimada
+-retirar lâmpada queimada
+-posicionar lâmpada nova
+-enroscar lâmpada nova
+-descer da escada
+-guardar escada
+-descartar lâmpada queimada
+-ligar disjuntor
+-ligar interruptor
+
+
+Trocar pneu do carro
+
+-parar o carro
+-desligar o carro
+-ligar sinalização
+-abrir porta
+-sair do carro
+-fechar porta
+-identificar pneu com problema
+-abrir porta-malas
+-pegar ferramentas e estepe no porta-malas
+-fechar porta-malas
+-afrouxar parafusos do pneu
+-posicionar macaco
+-levantar o carro
+-soltar parafusos
+-retirar pneu com problema
+-colocar estepe
+-apertar parafusos
+-descer o carro
+-retirar macaco
+-abrir porta-malas
+-guardar ferramentas no porta-malas
+-fechar porta-malas
+-abrir porta do carro
+-entrar no carro
+-fechar porta
+-desligar sinalizador
+-ligar o carro
+-ir comprar um pneu novo
+
+
+Tomar banho
+
+-pegar roupas limpas
+-pegar toalha limpa e seca
+-entrar no banheiro
+-verificar se tem sabonete no box
+-tirar roupas
+-entrar no box
+-ligar chuveiro
+-passar shampoo no cabelo
+-passar sabonete no corpo
+-enxaguar
+-desligar chuveiro
+-pegar toalha
+-secar-se
+-sair do box
+-vestir roupas limpas
+-colocar roupas sujas e toalha usada no cesto de roupas
+-sair do banheiro
+
+
+

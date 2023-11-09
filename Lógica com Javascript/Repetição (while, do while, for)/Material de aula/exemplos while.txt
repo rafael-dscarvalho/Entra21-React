@@ -1,0 +1,26 @@
+let quantidade = Number(prompt("Quantas vezes?"))
+let contador = 0
+
+while(quantidade < 10) {
+    console.log("mensagem")
+    quantidade++
+}
+
+while (contador < quantidade) {
+  console.log("mensagem " + contador)
+  contador++
+}
+
+do {
+  console.log("mensagem " + contador)
+  contador++
+} while (contador < quantidade) 
+
+let logado = true
+
+while(logado == false){
+  console.log("Estamos verificando o seu acesso")
+  logado = true
+}
+
+

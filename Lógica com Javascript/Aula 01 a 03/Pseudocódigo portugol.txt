@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro arroz =  10
+    inteiro batataPalha = 7
+    inteiro sucoDeGarrafa = 5
+    inteiro dinheiro = 100
+    inteiro soma
+    inteiro troco
+
+    soma = arroz+batataPalha+sucoDeGarrafa
+
+    troco = 100 - soma
+
+    escreva("Seu troco é: " + troco)
+
+
+  }
+}
