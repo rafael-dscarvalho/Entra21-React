@@ -8,7 +8,7 @@
 <p align="center">
   <img alt="Made by Rafael C." src="https://img.shields.io/badge/made%20by-Rafael%20C.-rgb(255, 69, 0)?style=flat-square">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/rafael-dscarvalho/Entra21-React?OrangeRed">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/rafael-dscarvalho/Entra21-React?color=rgb(255, 69, 0)">
 
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafael-dscarvalho/Entra21-React?color=rgb(255, 69, 0)&style=flat-square">
 
