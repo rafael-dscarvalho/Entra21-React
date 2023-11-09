@@ -34,16 +34,28 @@ Curso segue em andamento, atualizarei o repositório com novos conteúdos de nov
 -Metodologias ágeis para TI
 -Finanças e contabilidade
 
-## 📝 Exercícios
+## 📝 Exercícios Javascript
 
-- [Estrutura Condicional](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Condicionais%20(if-else%2C%20switch-case)/Exercicios%20if-else)
-- [Estrutura de Repetição - While](./src/br/com/entra21/exercicios/lista03)
-- [Vetor](./src/br/com/entra21/exercicios/lista04)
-- [Estrutura de Repetição - For](./src/br/com/entra21/exercicios/lista05)
-- [For com Vetor](./src/br/com/entra21/exercicios/lista06)
-- [ArrayList](./src/br/com/entra21/exercicios/lista07)
-- [Getter e Setters](./src/br/com/entra21/exercicios/lista08)
-- [Interface Gráfica](./src/br/com/entra21/exercicios/lista09)
+- [Estrutura Condicional (If-Else)](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Condicionais%20(if-else%2C%20switch-case)/Exercicios%20if-else)
+- [Estrutura Condicional (Switch-Case)](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Condicionais%20(if-else%2C%20switch-case)/Exercicios%20switch-case)
+- [Estrutura de Repetição - (While-DoWhile)](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Repeti%C3%A7%C3%A3o%20(while%2C%20do%20while%2C%20for)/Exercicios%20while%2C%20do%20while)
+- [Estrutura de Repetição - For](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Repeti%C3%A7%C3%A3o%20(while%2C%20do%20while%2C%20for)/Exercicios%20for)
+- [Vetores lista 1](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Vetores%20e%20Matrizes/Exerc%C3%ADcios%20Vetores%20lista%201)
+- [Vetores lista 2](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Vetores%20e%20Matrizes/Exerc%C3%ADcios%20Vetores%20lista%202)
+- [Matrizes](.https://github.com/rafael-dscarvalho/Entra21-React/tree/main/L%C3%B3gica%20com%20Javascript/Vetores%20e%20Matrizes/Exercicios%20Matrizes)
+- [Funções lista 1](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Fun%C3%A7%C3%B5es/Exercicios%20Fun%C3%A7%C3%B5es%20lista%201)
+- [Funções lista 2](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Fun%C3%A7%C3%B5es/Exercicios%20Fun%C3%A7%C3%B5es%20lista%202)
+- [Funções lista 3](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Fun%C3%A7%C3%B5es/Exercicios%20Fun%C3%A7%C3%B5es%20lista%203)
+- [Objetos lista 1](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%201)
+- [Objetos lista 2](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%202)
+- [Objetos lista 3](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%203)
+
+## 📝 Avaliações
+
+- [Avaliação CRUD](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%203)
+- [Avaliação CAPTCHA](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%203)
+- [Avaliação HTML](https://github.com/rafael-dscarvalho/Entra21-React/tree/main/Javascript%20Avan%C3%A7ado/Objetos/Exerc%C3%ADcios%20objetos%20lista%203)
+
 
 ---
 
