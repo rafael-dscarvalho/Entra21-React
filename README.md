@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <img alt="Made by Rafael C." src="https://img.shields.io/badge/made%20by-Rafael%20C.-#FF4500?style=flat-square">
+  <img alt="Made by Rafael C." src="https://img.shields.io/badge/made%20by-Rafael%20C.-rgb(255, 69, 0)?style=flat-square">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count&color=red/rafael-dscarvalho/Entra21-React">
 
