@@ -1,0 +1,18 @@
+1 - π nome_livro σ preco ≤ 50 (LIVRO)
+
+2 - π cod_livro σ qtd_estoque < 20 (ESTOQUE)
+
+3 - π nome_livro σ   preco ≥ 30 ∧ preco ≤ 50  (LIVRO)
+ 
+4 - π cod_livro σ   qtd_estoque = NULL  (ESTOQUE)
+
+5 - π nome_livro σ qtd_estoque > 5 ∧ preco > 50(LIVRO ⨝ ESTOQUE) 
+6- π nome_livro σ preco > 30 ∨ autor = 'George Orwell'(LIVRO)
+ 
+7 - π cod_pedido σ   valor_pedido > 100  (PEDIDO) 
+
+8 -  π cod_pedido σ   qtd_pedido = 5 (ITEM_PEDIDO)
+
+9 - π cod_pedido σ data ≥ date('2023-09-09') ∧ data ≤ date('2023-09-15')(PEDIDO)
+
+10 - 

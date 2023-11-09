@@ -1,0 +1,17 @@
+#usuario admin
+CREATE USER 'rafaelc'@'localhost' IDENTIFIED BY 'a1b2c3d4E@';
+GRANT ALL PRIVILEGES ON *.* TO 'rafael'@'localhost' WITH GRANT OPTION;
+
+SELECT * FROM MYSQL.USER;
+
+#usuario nomral
+CREATE USER 'user_normal'@'localhost' IDENTIFIED BY 'a1b2c3d4E@';
+GRANT SELECT , INSERT, UPDATE, DELETE ON *.* TO 'user_normal'@'localhost';
+
+#usuario modo leitura
+CREATE USER 'user_read'@'localhost' IDENTIFIED BY 'a1b2c3d4E@';
+GRANT SELECT ON *.* TO 'user_read'@'localhost';
+
+#revoga todos privilegios do usuario
+SHOW GRANTS FOR 'user_normal'@'localhost';
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'user_normal'@'localhost';

@@ -1,0 +1,159 @@
+
+group: Clube do Livro
+
+LIVRO = {
+cod_livro, nome_livro, autor, preco, cod_editora
+1, 'Percy Jackson e o Ladrao de Raios', 'Rick Riordan', 41.2, 1
+2, 'Sangue de Lobo', 'Rosana Rios', 50.9, 2
+3, 'Resident Evil Caliban Cove', 'S.D Perry', 18, 2
+4, 'O Simbolo Perdido', 'Dan Brown', 60, 3
+5, 'Sombras e Ossos', 'Leigh Bardugo', 28.9, 3
+6, 'Pegasus e o Fogo do Olimpo', 'Kate O Hearn', 24.9, 3
+7, 'Gossip Girl Nao me Esqueca', 'Cecily Von', 26.9, 4
+8, 'Cidade das Almas Perdidas', 'Cassandra Clare', 34.45, 5
+9, 'A Chama de Ember', 'Colleen Houck', 39.46, 1
+10, 'A Maldicao do Tigre', 'Colleen Houck', 60, 5
+11, 'O Senhor dos AnÃ©is', 'J.R.R. Tolkien', 29.99, 1
+12, 'Harry Potter', 'J.K. Rowling', 24.99, 1
+13, 'Cem Anos de Solidão', 'Gabriel Garcia Marquez', 19.99, 8
+14, 'Dom Quixote', 'Miguel de Cervantes', 22.99, 6
+15, 'A Revolução dos Bichos', 'George Orwell', 17.99, 6
+16, 'Orgulho e Preconceito', 'Jane Austen', 18.99, 6
+17, 'Crime e Castigo', 'Fyodor Dostoevsky', 21.99, 2
+18, '1984', 'George Orwell', 20.99, 3
+19, 'Ulisses', 'James Joyce', 25.99, 3
+20, 'O Grande Gatsby', 'F. Scott Fitzgerald', 16.99, 4
+}
+
+
+EDITORA = {
+cod_editora, nome
+1, 'Sextante'
+2, 'Companhia das Letras'
+3, 'Nova Fronteira'
+4, 'Record'
+5, 'Intrínseca'
+6, 'Rocco'
+}
+
+
+
+CLIENTE = {
+cod_cliente, nome, cidade, email
+1, 'João Silva', 'São Paulo', 'joao.silva@example.com'
+2, 'Maria Santos', 'Rio de Janeiro', 'maria.santos@example.com'
+3, 'Pedro Almeida', 'Belo Horizonte', 'pedro.almeida@example.com'
+4, 'Ana Souza', 'Salvador', 'ana.souza@example.com'
+5, 'Carlos Lima', 'Brasília', 'carlos.lima@example.com'
+6, 'Fernanda Rocha', 'Recife', 'fernanda.rocha@example.com'
+7, 'André Oliveira', 'Fortaleza', 'andre.oliveira@example.com'
+8, 'Juliana Costa', 'Manaus', 'juliana.costa@example.com'
+9, 'Luiz Fernandes', 'Curitiba', 'luiz.fernandes@example.com'
+10, 'Laura Santos', 'Porto Alegre', 'laura.santos@example.com'
+11, 'Paulo Rodrigues', 'Belém', 'paulo.rodrigues@example.com'
+12, 'Carolina Menezes', 'Rio de Janeiro', 'carolina.menezes@example.com'
+13, 'André Santos', 'Goiânia', 'andre.santos@example.com'
+14, 'Isabella Oliveira', 'Vitória', 'isabella.oliveira@example.com'
+15, 'Marcelo Costa', 'São Lui­s', 'marcelo.costa@example.com'
+16, 'Beatriz Andrade', 'Natal', 'beatriz.andrade@example.com'
+17, 'Rafael Fernandes', 'Campinas', 'rafael.fernandes@example.com'
+18, 'Laura Mendes', 'Rio de Janeiro', 'laura.mendes@example.com'
+19, 'Alexandre Lima', 'Cuiabá', 'alexandre.lima@example.com'
+20, 'Vanessa Santos', 'Aracaju', 'vanessa.santos@example.com'
+}
+
+ITEM_PEDIDO = {
+cod_pedido, cod_livro, qtd_pedido
+1, 7, 2
+1, 7, 2
+1, 2, 1
+2, 2, 5
+3, 4, 3
+4, 8, 1
+5, 6, 2
+6, 6, 4
+6, 20, 1
+7, 3, 1
+8, 10, 3
+8, 11, 2
+8, 12, 10
+9, 9, 2
+10,10, 1
+11, 12, 2
+11, 13, 2
+12, 15, 3
+13, 18, 1
+14, 13, 4
+15, 17, 2
+16, 20, 1
+17, 11, 3
+18, 14, 2
+19, 19, 1
+20, 16, 5
+20, 18, 6
+21, 3, 2
+22, 7, 3
+23, 10, 1
+24, 9, 4
+25, 6, 2
+}
+
+PEDIDO = {
+cod_pedido, data, valor_pedido, cod_cliente
+1, 2023-09-18, 418.8, 20
+2, 2023-09-18, 254.5, 1
+3, 2023-09-18, 180, 1
+4, 2023-09-18, 34.45, 2
+5, 2023-09-15, 49.8, 3 
+6, 2023-09-12, 166.39, 5
+7, 2023-09-12, 18, 6
+8, 2023-09-12, 481.47, 10
+9, 2023-09-12, 78.92, 11
+10, 2023-09-12, 60, 1
+11, 2023-09-12, 89.96, 12
+12, 2023-09-09, 53.97, 15
+13, 2023-09-08, 20.99, 18
+14, 2023-09-01, 83.96, 18
+15, 2023-09-17, 43.98, 20
+16, 2023-09-17, 16.99, 8
+17, 2023-09-17, 89.97, 7
+18, 2023-09-17, 45.98, 7
+19, 2023-09-06, 25.99, 7
+20, 2023-09-02, 220.89, 7
+21, 2023-09-18, 54, 9
+22, 2023-09-15, 80.97, 14
+23, 2023-09-14, 60, 14
+24, 2023-09-13, 157.84, 16
+25, 2023-09-07, 49.8, 16
+}
+
+
+ESTOQUE = {
+cod_livro, cod_editora, qtd_estoque
+1,  1, 100
+2,  2, 28
+3,  2, 20
+4,  3, NULL
+5,  3, 20
+6,  3, 100
+7,  4, 1000
+8,  5, 5
+9,  1, 2
+10, 5, 1
+11, 1, NULL
+12, 1, NULL
+13, 4, 23
+14, 6, 12
+15, 6, 8
+16, 6, 3
+17, 2, 2
+18, 3, 1
+19, 3, 1
+20, 4, 1
+}
+						
+
+
+
+
+

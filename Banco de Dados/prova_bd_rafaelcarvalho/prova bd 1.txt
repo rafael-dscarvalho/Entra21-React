@@ -1,0 +1,52 @@
+1a Prova
+
+CASE : Mostra Científica Escolar
+
+Você foi acionado por uma escola a criar um repositório para sua mostra
+científica anual. Trata-se de automatizar o processo fazendo o cadastramento online
+dos trabalhos pelos alunos responsáveis e por consequência armazenar esses
+dados de forma persistente para futuras consultas. Atualmente todo o processo é
+feito manualmente com uma ficha de inscrição e armazenamento em tabelas de
+excel, o que se provou ineficiente.
+Ao chegar no local você foi atendido pelo o gestor da escola que o orientou
+sobre as peculiaridades da modelagem do banco de dados.
+
+Informações:
+- A escola possui em torno de 1000 alunos e todos eles são obrigados a
+apresentar um trabalho para a mostra científica. O trabalho possui titulo,
+resumo, ano de publicação, pelo menos um aluno associado ao trabalho e
+um professor orientador.
+- Existe a possibilidade de ter alunos não enturmados, isto é, alunos sem
+turma pois o sistema só enturma os alunos após a verificação de
+documentação para a matrícula e o pagamento da primeira
+mensalidade.
+- Um aluno só pode estar relacionado a uma turma.
+- Uma turma possui um número e seu período (matutino e vespertino), bem
+como o seu número ( nome da turma).
+- Não existe turma sem professor.
+- Um professor pode orientar vários trabalhos mas a escola não obriga a
+participação do docente, pois os alunos que devem eleger o professor
+orientador.
+- Um aluno só pode participar de um trabalho na mostra científica. Seu nome
+não pode estar contido em nenhum outro trabalho além do primeiro.
+- Um aluno possui nome, sobrenome, endereço e telefones. É obrigatório pelo
+menos um telefone de contato.
+- Os trabalhos são apresentados por turma, isto é, não é possível alunos de
+turmas diferentes associadas a um trabalho na mostra científica.
+- Uma turma só é criada no sistema quando é enturmado pelo menos um
+aluno e um professor.
+- O professor possui nome, sobrenome, pelo menos um telefone obrigatório e
+sua disciplina de domínio.
+
+Recomendações:
+- Entrega Modelo Conceitual, Lógico e Físico.
+- Não esqueça de definir, as chaves primárias e estrangeiras no seu modelo.
+- Zip o arquivo da sua entrega e coloque seu nome.
+- ex: prova_bd_aluno.zip.
+- Devem conter três arquivos (modelagem conceitual, lógica e física).
+- Podem ser enviadas fotos com uma boa resolução.
+- Não usar a ferramenta automática do Br Modelo.
+- Tempo para realização: 19:00 - 22:00 hrs
+
+SÓ ALEGRIA 🙂
+
