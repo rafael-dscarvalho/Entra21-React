@@ -1,0 +1,84 @@
+const fs = require('fs')
+
+// Ler arquivo
+
+// const data = fs.readFileSync('arquivo.txt', 'utf-8')
+// console.log(data)
+
+// fs.readFile('arquivo.txt', 'utf8', (err, data) => {
+//     if (err) {
+//         console.error('Erro:', err);
+//     } else {
+//         console.log('Conteúdo do arquivo:', data);
+//     }
+// });
+
+
+// Criar ou editar
+
+// fs.writeFileSync('arquivo.txt', 'Conteúdo a ser escrito')
+
+// fs.writeFile('arquivo.txt', 'Conteúdo a ser escrito', (err) => {
+//     if (err) throw err;
+//     console.log('Arquivo foi escrito com sucesso.');
+// });
+
+
+// Verificar se diretório ou arquivo existe
+
+// if (fs.existsSync('arquivo.txt')) {
+//     console.log('O arquivo existe.')
+// } else {
+//     console.log('O arquivo não existe.')
+// }
+
+
+// Listar arquivos de uma pasta
+
+// fs.readdir('./arquivos', (erro, arquivos) => {
+//     if (erro) {
+//         console.log(`Deu erro -- ${erro}`)
+//     } else {
+//         console.log('Arquivos no diretório:', arquivos)
+//     }
+// });
+
+
+// Criar uma pasta
+
+// fs.mkdirSync('novo_diretorio')
+
+// fs.mkdir('novo_diretorio2', (erro) => {
+//     if (erro) {
+//         console.log(`Deu erro -- ${erro}`)
+//     } else {
+//         console.log('Diretório criado com sucesso.')
+//     }
+// });
+
+
+// Ler arquivo e editar
+
+// const readlineSync = require('readline-sync')
+// let nomeInserido = readlineSync.question("Qual e o seu nome? ")
+
+// let data = fs.readFileSync('arquivo.txt', 'utf-8')
+// data += '\nNovo conteúdo adicionado:'
+// data += `\n${nomeInserido}`
+// fs.writeFileSync('arquivo.txt', data)
+
+
+// Usando async await
+
+// const fs = require('fs').promises;
+
+// async function lerArquivo() {
+//   try {
+//     const data = await fs.readFile('arquivo.txt', 'utf8');
+//     console.log(data);
+//   } catch (err) {
+//     console.error('Erro:', err);
+//   }
+// }
+
+// lerArquivo();
