@@ -1,0 +1,18 @@
+
+variável* (string, float, int)
+scanner*? system*(sistema, windows pt_br)
+
+Math.sqrt = raíz quadrada
+Math.pow = elevado > ex: Math.pow(4, 3); *4 elevado a 3.
+
+número decimal: System.out.printf("A distância entre p1 e p2 é %.3f", d)  >> %.3f = até 3 casas depois do ponto
+
+comparação:  if (num %2 ==0) {PAR} >>> SE O RESTO DA DIVISÃO FOR 0, ENTÃO É PAR
+                       if (num %1 == 1 {ÍMPAR]  >>>> SE O RESTO DA DIVISÃO FOR 1, ENTÃO É ÍMPAR
+
+
+
+
+
+
+

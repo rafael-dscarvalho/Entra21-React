@@ -1,0 +1,45 @@
+package pacote.ola.mundo;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class OlaMundo {
+
+	public static void main(String[] args) {
+
+		// Para utilizar '.' como separador de casas decimais
+		Locale.setDefault(Locale.US);
+		
+		int soma = 0; // variavel que armazena soma
+		int repeticao = 1; // conta números inseridos
+		int num1;  // variavel que recebe o valor digitado pelo usuário
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		 
+		System.out.print("Digite um número " + repeticao + ": ");
+		num1 = sc.nextInt();  // pede valor ao usuario
+		soma = soma + num1;   // faz a soma
+		repeticao = repeticao + 1;
+		
+		System.out.print("Digite um número " + repeticao + ": ");
+		num1 = sc.nextInt();  // pede valor ao usuario
+		soma = soma + num1;   // faz a soma
+		repeticao = repeticao + 1;
+		
+		System.out.print("Digite um número " + repeticao + ": ");
+		num1 = sc.nextInt();  // pede valor ao usuario
+		soma = soma + num1;   // faz a soma
+		repeticao = repeticao + 1;
+		
+		System.out.print("Digite um número " + repeticao + ": ");
+		num1 = sc.nextInt();  // pede valor ao usuario
+		soma = soma + num1;   // faz a soma
+		repeticao = repeticao + 1;
+		
+		System.out.println("A soma dos números é " + soma );
+		sc.close();
+		
+	}
+
+}

@@ -1,0 +1,70 @@
+
+public class Gerente {
+	
+	private String nome;
+	private String cpf;
+	private double salario;
+	
+	private int senha; // atributo exclusivo de gerente -- definida no construtor 
+	
+	public Gerente( String nome, String cpf, double salario, int senha ) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.salario = salario;
+		this.senha = senha;
+	}
+	
+	// -------------------------------------------------
+	// Metodos exclusivos da classe gerente
+	// -------------------------------------------------
+	public boolean autentica(int senhaDigitada) {
+		if( senhaDigitada == getSenha() ) {
+			System.out.println("Acesso Permitido!");
+			return true;
+		} 
+		else {
+			System.out.println("Acesso negado!");
+			return false;
+		}
+	}
+	
+	public void setSenha( int senha ) {
+		this.senha = senha;
+	}
+	
+	public int getSenha() {
+		return senha;
+	}
+	// -------------------------------------------------
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public void setNome(String nome ) {
+		this.nome = nome;
+	}
+	
+	public String getCpf() {
+		return cpf;
+	}
+	
+	public void setCpf( String cpf ) {
+		this.cpf = cpf;
+	}
+	
+	public double getSalario() {
+		return salario;
+	}
+	
+	public void setSalario( double salario ) {
+		this.salario = salario;
+	}
+	
+	public void imprimeInformacaoFuncionario() {
+		System.out.println("Nome: "+ this.nome );
+		System.out.println("CPF: "+ this.cpf );
+		System.out.printf("Salário: R$ %.2f", this.salario );
+	}
+
+}

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Formulário</title> 
+        <link href="geral.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <form method="post" action="">
+            <fieldset id="fieldsetTop">
+                <legend>Dados Pessoais</legend>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label>E-mail</label>
+                <input type="email" name="email" id="email">
+                <label>Senha</label>
+                <input type="password" name="senha" id="senha">
+                <label>Sexo</label>
+                <input type="radio" name="sexo" value="Masculino" class="limparLargura"> Masculino
+                <input type="radio" name="sexo" value="Feminino" class="limparLargura"> Feminino
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label>CEP:</label>
+                <input type="text" name="cep" id="cep" maxlength="8"> 
+                <label>Logradouro</label>
+                <input type="text" name="logradouro" id="logradouro">
+                <label>Número</label>
+                <input type="number" name="numero" id="numero">
+                <label>Complemento</label>
+                <input type="text" name="complemento" id="complemento">
+            </fieldset>
+            <fieldset id="fieldsetBottom">
+                <legend>Dados Financeiros - Cartão de Crédito</legend>
+                <label>Tipo</label>
+                <input type="radio" name="tipo" value="Nacional" class="limparLargura"> Nacional
+                <input type="radio" name="tipo" value="Internacional" class="limparLargura"> Internacional
+                <label>Bandeira</label>
+                <select>
+                    <option value="MC">Mastercard</option>
+                    <option value="VC">Visa</option>
+                    <option value="EL">ELO</option>
+                </select>
+                <label>Validade</label>
+                <input type="number" name="mes" id="mes" placeholder="Mês">
+                <input type="number" name="ano" id="ano" placeholder="Ano">
+            </fieldset>
+
+                <span id="grupoBotoes">
+                    <input type="submit" value="Enviar" id="bt_enviar" />
+                    <input type="reset" value="Limpar" id="bt_limpar" />
+                </span>
+            
+            
+        </form>
+    </body>
+
+</html>

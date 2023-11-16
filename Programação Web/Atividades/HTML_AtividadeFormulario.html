@@ -1,0 +1,84 @@
+<html>
+    <head>
+       <title>Atividade Formulário</title>
+    </head>
+    <body>
+        <form method="post" action="#">
+            <fieldset>
+            <legend>Formulario de carros</legend>
+            <label>Modelo</label>
+                <input type="text" id="modelo" name="modelo" placeholder="digite o modelo do carro aqui" required/>
+                <br>
+            <label>Cor</label>
+                <input type="text" id="cor" name="cor" placeholder="digite a cor do carro aqui" required/>
+                <br>
+            <label>Ano</label>
+                <input type="number" id="ano" name="ano" placeholder="digite o ano do carro aqui" required /> 
+                <br>
+            <label>Placa</label>
+                <input type="text" id="placa" name="placa" placeholder="digite a placa do carro aqui" required /> 
+                <br>
+            <label>KM</label>
+                <input type="number" id="km" name="km" placeholder="digite a quilometragem do carro aqui" required /> 
+                <br>
+            <label>Valor</label>
+                <input type="number" id="valor" name="valor" placeholder="digite o valor do carro aqui" required /> 
+                <br>
+            <label>Condição</label>
+                <input type="radio" name="condiçao" value="Novo"> Novo
+                <input type="radio" name="condiçao" value="Usado"> Usado
+                <br>
+            <label>Categoria</label>
+                <select>
+                    <option value="Hatch">Hatch</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Sedan">Sedan</option>
+                    <option value="Picape">Picape</option>
+                    <option value="Utilitário">Utilitário</option>
+                    <option value="Perua">Perua</option>
+                    <option value="Minivan">Minivan</option>
+                    <option value="Conversível">Conversível</option>
+                    <option value="Outro">Outro</option>
+                </select>
+                <br>
+                <label>Fabricante</label>
+                <select>
+                    <option value="Fiat">Fiat</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Chevrolet">Chevrolet</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Citroen">Citroen</option>
+                    <option value="Outro">Outro</option>
+                </select>  
+                <br> 
+                <label>Opcionais:</label>
+            <label>
+                <input type="checkbox" name="opcionais" value="Direção">
+                Direção
+            </label>
+            <label>
+                <input type="checkbox" name="opcionais" value="Vidros elétricos">
+                Vidros elétricos
+            </label> 
+            <label>
+                <input type="checkbox" name="opcionais" value="Banco de couro">
+                Banco de couro
+            </label> 
+            <label>
+                <input type="checkbox" name="opcionais" value="Farol de milha">
+                Farol de milha
+            </label> 
+            <br>
+ 
+            <label>
+                <input type="submit" value="Enviar" id="bt_enviar" />
+            </label>
+            <label>
+                <input type="reset" value="Limpar" id="bt_limpar" />
+            </label>
+            </fieldset>
+
+        </form>
+    </body>
+
+</html>

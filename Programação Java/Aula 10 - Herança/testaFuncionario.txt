@@ -1,0 +1,14 @@
+
+public class testa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Funcionario funcionario_1 = new Funcionario("Carlos", "951.772.993-56", 1500 );
+		funcionario_1.imprimeInformacaoFuncionario();
+		
+		System.out.println("");
+		Gerente gerente_1 = new Gerente("Julius", "897.756.987-10", 5000, 5678 );
+		gerente_1.imprimeInformacaoFuncionario();
+	}
+
+}

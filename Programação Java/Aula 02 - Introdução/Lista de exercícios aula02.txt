@@ -1,0 +1,75 @@
+1) Faça um programa que peça o nome e a idade de uma pessoa e imprima na tela.
+
+2)Faça um programa em Java que pergunta um valor em metros e imprime o correspondente em decimentros, centimetros e milimetros.
+
+3)Fazer um programa em Java que receba como entrada um número inteiro e imprime a tabuada de 1 a 10 deste número.
+
+4)Fazer um programa em Java que pergunte um valor em graus Fahrenheit e imprime no vídeo o correspondente em graus Celsius usando a fórmula a seguir:
+C = (f -32) * 5 /9
+
+5)Fazer um programa em Java que tenha como entrada o peso e a altura de uma pessoa e calcule seu índice de massa corporal (IMC) segundo a fórmula:
+peso / altura*altura
+
+6)Calcula o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em KM) e o total de combustível gasto (em Litros)
+*Entrada: O programa deve pedir ao usuário dois valores: um valor X representando a distância total percorrida (em KM), e um valor real Y representando o total de combustível gasto, com um dígito após o ponto decimal.
+*Saída: Apresente o valor que representa o consumo médio do automóvel com 3 casas após a vírgula, seguido da mensagem "km/l".
+
+7)Escreva um programa que leia o número de identificação de um funcionário, seu número de horas trabalhadas, o valor que ele recebe por hora e calcula o salário desse funcionário. O programa deve mostrar na tela o número de identificação do funcionário e o salário dele. com duas casas decimais.
+*Entrada: O programa deve pedir como entrada 1- número de identificação do funcionário, 2- a quantidade de horas trabalhadas, 3- o valor que o funcionário recebe por hora trabalhada.
+*Saída: O programa deve imprimir na tela 1- número do funcionário 2- salário dele.
+
+ENTRADA                                 |    Saída
+                                                  |
+ID funcionário = 25                     ID funcionário = 25
+Horas trabalhadas = 100           Salário = R$ 550.00
+Valor da Hora = 20.50  
+
+D funcionário = 1                        ID funcionário = 1
+Horas trabalhadas = 200           Salário = R$ 4100.00
+Valor da Hora = 20.50  
+
+D funcionário = 6                        ID funcionário = 6
+Horas trabalhadas = 145           Salário = R$ 2254.75
+Valor da Hora = 15.55    
+
+
+8)Distância em linha reta: Para determinar a distância em linha reta entre dois pontos, faça um programa que leia os quatro valores de entrada: x1, x2, y1, y2. Estes valores correspondem a dois pontos quaisquer no plano cartesionao, p1(x1, y1) e p2(x2, y2). Em seguida, calcule a distância entre esses dois pontos ( mostrando 4 casas decimais após a vírgula) seguindo a formúla:
+D = Raiz quadrada de (x2 - x1) ao quadrado + (y2 - y1) ao quadrado > V(x2 x1)*2 + (y2 - y1)*2
+Entrada: O programa pede do usuário quatro linhas de entrada: as duas primeiras linhas correspondentes aos valores x1 e y1 (ponto p1), e as duas últimas linhas correspondentes aos valores x2 e y2 (ponto p2). Esses valores devem ser de ponto flututante.
+Saída: Calcula e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
+
+ENTRADA                                 |    Saída
+                                                  |
+x1 = -2.5                                        Distância (p1,p2) = 4.4721
+y1 = 0.4         
+x2 = 12.1
+y2 =  7.3 
+
+x1 = -2.5                                        Distância (p1,p2) = 16.1484
+y1 = 0.4         
+x2 = 12.1
+y2 =  7.3 
+
+x1 = -2.5                                        Distância (p1,p2) = 16.4575
+y1 = 0.4         
+x2 = 12.1
+y2 =  7.3 
+
+9)Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês ( em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
+Entrada: O arquivo de entrada contem um texto ( primeiro nome do vendedor) e 2 valores de dupla precisão (double) com duas casas decimais, representando o salário fixo do vendedor e o montante total de vendas efetuadas por este vendedor, respectivamente.
+Saída: Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
+
+ENTRADA                                        |    Saída
+                                                         |
+Funcionário = João                                      Funcionário = João
+Salário Fixo = R$ 500.00                             Total a receber = R$ 684.54
+Total de vendas = R$ 1230.00
+
+Funcionário = Pedro                                    Funcionário = Pedro
+Salário Fixo = R$ 700.00                             Total a receber = R$ 700.00
+Total de vendas = R$ 0
+
+Funcionário = Luíza                                      Funcionário = Luíza
+Salário Fixo = R$ 1700.00                            Total a receber = R$ 1884.58
+Total de vendas = R$ 1230.50
+

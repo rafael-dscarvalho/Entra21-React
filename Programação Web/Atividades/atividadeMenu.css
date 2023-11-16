@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #containerTopo{
+      width: 100vw;
+      height: 45px;
+      padding: 10px 270px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1d1d1c;
+  }
+  #containerMenuRight{
+    margin: 30px;
+  }
+  a{
+    font-family: initial;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+  }
+  button{
+    font-size: 8px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+  }
+  img{
+    width: 14px;
+  }
+  span{
+    padding: 10px;
+  }
+
+  

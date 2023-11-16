@@ -1,0 +1,20 @@
+package pacote.ola.mundo;
+
+
+//Classe ContaBancaria que contém uma variável de instância nome
+//e métodos para configurar e obter seu valor.
+
+
+public class ContaBancaria {
+	private String nome; // variável de instância
+
+	// método para definir o nome no objeto 
+	public void setNome(String nome) { // set = set 
+		this.nome = nome; // armazena o nome 
+	}
+
+	// método para recuperar o nome do objeto 
+	public String getNome() { // get = obter
+		return nome; // retorna valor do nome para o chamadorÿ
+	} 
+} // fim da classe ContaBancaria

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: brown;
+    color: white;
+}
+form{
+    display: block;
+    margin-top: 15px;
+}
+span{
+    font-weight: bold;
+    color: gray;
+}
+.capital{
+    color: aqua;
+}
+label{
+    display: block;
+}
+input{
+    width: 300px;
+}
+#bt_enviar, #bt_limpar{
+    width: 100px;
+    height: 45px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+.limparLargura{
+    width: auto;
+}
+legend{
+    font-weight: bold;
+}
+fieldset{
+    margin: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#grupoBotoes{
+    display: block;
+    width: 210px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, td, th{
+    border: 1px solid #000;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+th{
+    text-transform: uppercase;
+}
+table{
+    border-radius: 15px;
+}
+#tabelaHorario{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#dadosClientes{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#fieldsetTop{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#fieldsetBottom{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+    

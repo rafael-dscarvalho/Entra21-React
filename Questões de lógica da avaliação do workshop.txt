@@ -1,0 +1,41 @@
+
+
+4.A série de números abaixo possui uma lógica para completar a sequência. Complete a série com o número faltante.
+
+6   4   10   14   24   38   ?
+67
+62
+48
+56
+60
+5.Quatro escolas estão fazendo uma campanha para arrecadação de roupas de inverno. As escolas possuem horários diferentes para receber os agasalhos:
+1. Na Escola A, o horário disponível para entrega vai de 11h30min até 18h30min
+2. Na Escola B, o horário vai de 07h40min até 13h00 e de 17h30min até 22h00
+3. Na Escola C, vai de 07h30min até 12h00 e de 14h00 ate 20h45min
+4. Na Escola D, o horário vai de 09h30min até 21h30min
+
+Por quanto tempo as quatro escolas estarão disponíveis para receber os agasalhos simultaneamente?
+2h
+1h30min
+4h
+2h30min
+1h15min
+6.Os números a seguir seguem um padrão: 5, 9, 17, 33, 65, 129, X 
+O último número dessa sequência é
+303
+257
+259
+252
+293
+7.Numa caixa, há bolas vermelhas, azuis e amarelas e o número de bolas vermelhas é igual ao triplo do número de bolas azuis. Se retirarmos 6 bolas vermelhas e 4 bolas amarelas, o número total dessas bolas caem, respectivamente, para um terço e dois terços de suas quantidades iniciais. O número inicial de bolas vermelhas, azuis e amarelas, nesta ordem, é igual a:
+3, 4, 5
+2, 4, 9
+10, 15, 4
+9, 3, 12
+1, 8, 16
+8.Se todo A é B, nenhum B é C e todo B é D, é possível afirmar corretamente que:
+nenhum A é C e todo A é D
+todo B é A
+todo A é C
+nenhum B é A e nenhum D é B
+todo C é B

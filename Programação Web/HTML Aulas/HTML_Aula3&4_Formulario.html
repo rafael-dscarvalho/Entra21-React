@@ -1,0 +1,71 @@
+<html>
+    <head>
+       <title>Formulário</title>
+    </head>
+    <body>
+        <form method="post" action="#">
+            <fieldset>
+            <legend>Formulário de cliente</legend>
+            <label>Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="digite seu nome aqui" required/>
+            <label>Endereço</label>
+                <input type="text" id="endereco" name="endereco" placeholder="digite seu endereço aqui" />
+            <label>E-mail</label>
+                <input type="text" id="email" name="email" placeholder="digite seu e-mail" required /> 
+            <label>Senha</label>
+                <input type="password" id="senha" name="senha" required />
+
+            <br>
+
+            <input type="hidden" name="ip">
+
+            <input type="file" name="foto" id="foto" accept="image/*">
+
+            <label>Escolha um estado</label>
+            <select>
+                <optgroup label="Norte">
+                <option value="AM">Amazonas</option>
+                <option value="RO">Roraima</option>
+                <option value="AP">Amapá</option>
+            </optgroup>
+            <optgroup label="Nordeste">
+                <opttion value="MA">Maranhão</opttion>
+            </optgroup>
+            </select>
+
+            <label>Esporte preferido:</label>
+            <label>
+                <input type="checkbox" name="esporte" value="Atletismo">
+                Atletismo
+            </label>
+            <label>
+                <input type="checkbox" name="esporte" value="Futebol">
+                Futebol
+            </label>
+
+            <br>
+
+            <!--
+            <input type="color">
+            <input type="date">
+            <input type="datetime-local">
+            <input type="url">
+            <input type="file">
+            -->
+
+            <label>Deixe sua sugestão</label>
+
+            <textarea id="sugestao" name="sugestao" cols="20" rows="3" maxlength="50"></textarea>
+
+            <label>
+                <input type="submit" value="Enviar" id="bt_enviar" />
+            </label>
+            <label>
+                <input type="reset" value="Limpar" id="bt_limpar" />
+            </label>
+
+            </fieldset>
+        </form>
+    </body>
+
+</html>

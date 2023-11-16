@@ -1,0 +1,28 @@
+package pacote.ola.mundo;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class OlaMundo {
+
+	public static void main(String[] args) {
+		
+		// cria um objeto Scanner para obter entrada a partir da janela de comando
+		Scanner input = new Scanner(System.in);
+		
+		// cria um objeto ContaBancaria e o atribui a mimnhaContaBancaria
+		ContaBancaria minhaContaBancaria = new ContaBancaria();
+		
+		 // exibe o valor inicial do nome (null)
+		System.out.printf("valor Inicial da variável 'nome' do objeto 'minhaContaBancaria': %s%n%n", minhaContaBancaria.getNome());
+		
+		// solicita e lê o nome
+		System.out.println("Por favor entre com um nome:");
+		String nomeDaConta = input.nextLine(); // lê uma linha de texto
+		minhaContaBancaria.setNome(nomeDaConta); // insere nomeDaConta em minhaContaBancaria
+		System.out.println(); // gera saída de uma linha em branco
+		
+		// exibe o nome armazenado no objeto myAccount
+		System.out.printf("Novo valor da variável 'nome' no objeto 'minhaContaBancaria':%n%s%n", minhaContaBancaria.getNome());
+	}
+
+}

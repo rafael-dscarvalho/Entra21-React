@@ -1,0 +1,103 @@
+div{
+    border: 1px solid #000; 
+}
+#containerFlex{
+    display: flex;
+    flex-direction: row; /* row | row-reverse | column | column-reverse | (alinhamentos) */
+    justify-content: space-evenly; /* flex-start | flex-end | center | space-between, around, evenly | (inverte a ordem dos containers ou centraliza) */
+    align-items: flex-start; /* flex-start | flex-end | center | baseline */
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#containerFlex .item{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    border: 2px solid #000;
+}
+#containerTopo{
+    display: flex;
+    justify-content: space-around;
+   /* width: 1280px; */
+    height: 120px;
+   /* margin-left: auto;
+    margin-right: auto; */
+    background-color: orangered;
+}
+#containerTopo img{
+    margin-top: 10px;
+}
+#input-barra-pesquisa{
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-top: 35px;
+}
+#barra-pesquisa form button{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#containerMenu{
+    display: flex;
+    justify-content: space-around;
+    /*width: 1280px; */
+    height: 25px;
+   /* margin-left: auto;
+    margin-right: auto; */
+    background-color: #ccc;
+}
+#containerMenu .itemMenu{
+    padding: 5px;
+}
+#containerMenu .itemMenu a{
+    text-decoration: none;
+}
+#containerMenu .itemMenu a:hover{
+    text-decoration: overline;
+}
+#containerConteudo{
+    width: 1280px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#containerConteudo .conteudoItem{
+    height: 300px;
+}
+.conteudoItem{
+    display: flex;
+    justify-content: space-between;
+}
+.conteudoItem .itens{
+    width: 390px;
+    padding: 10px;
+}
+.containerImagem{
+    text-align: center;
+}
+.containerTexto{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-align: justify;
+    margin-top: 5px;
+}
+
+/*display grid*/
+
+#containerGrid{
+    width: 1000px;
+    height: 200px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 15px;
+    grid-template-columns: 250px 250px 250px 250px;
+}

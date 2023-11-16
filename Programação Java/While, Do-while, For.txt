@@ -1,0 +1,8 @@
+While: Somente exercutá os comandos dentro do escopo se a condição inicial for verdadeira.
+
+Do-While: A diferença de DO-WHILE para WHILE é que os comandos serão executados ao menos uma vez dentro do escopo antes de fazer a validção.
+
+
+FOR:  É preciso saber quantas repetições serão feitas, ou seja, é preciso saber as condições de início e fim.
+
+

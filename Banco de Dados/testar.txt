@@ -1,0 +1,8 @@
+cadastrar produtos e fornecedores
+organizar por numeração produtos e fornecedores ex3
+buscar produto por nome > ex1, ex2, ex3 
+buscar fornecedor por razão social ex1, ex2
+buscar produto por código ex2, ex3
+buscar fonecedor por cnpj ex2, ex3
+atualizar produtos e fornecedores
+excluir produtos e fornecedores
